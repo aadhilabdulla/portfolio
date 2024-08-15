@@ -1,0 +1,180 @@
+@font-face {
+    font-family: pb;
+    src: url(/css/fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: pm;
+    src: url(/css/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: pr;
+    src: url(/css/fonts/Poppins-Regular.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #21252A;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: pr;
+    color: white;
+}
+
+.top{
+    position:absolute;
+    top: 0;
+}
+
+.header{
+    width: 100%;
+    height: 9vh;
+    /* border: solid rgb(255, 255, 255); */
+    position: fixed;
+    top: 0;
+    display: flex;
+    background-color: #21252A;
+    
+}
+
+.header button{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.header a{
+    margin: auto;
+}
+
+.header button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.page1{
+    margin-top: 10%;
+    /* border: solid white; */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.page1 .title1{
+    margin-left: 15%;
+    margin-top: 8%;
+    opacity: 0.6;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.page1 .title2{
+    margin-left: 15%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.page1 .title2 span{
+    color: #F30755;
+}
+
+.page1 .title3{
+    margin-left: 15%;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+}
+
+.page1_1{
+    /* border:solid white; */
+    margin-top: 5%;
+    height: 50vh;
+    width: 40%;
+}
+
+.vl{
+    margin-top: 8.5%;
+    border: solid white;
+    height: 20vh;
+    opacity: 0.5;
+}
+
+.pfp{
+    margin-left: 20%;
+    height:425px;
+    width: 425px;
+    border: solid white;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.pfp img{
+    width: 130%;
+}
+
+
+.page2{
+    height: 90vh;
+    /* border: solid white; */
+    background-color: #F30755;
+}
+
+.page2 .title1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.page2 .content1{
+    margin-top: 2%;
+    width: 90%;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 2%;
+    line-height: 40px;
+}
+
+.page2 .title2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+
+.page2 .content2{
+    margin-top: 2%;
+    width: 90%;
+    text-align: justify;
+    /* font-size: 20px; */
+    margin-left: 2%;
+    /* line-height: 40px; */
+    /* border: solid white; */
+    display: flex;
+}
+
+.content2 .icon{
+    width: 12vw;
+    height: 12vh;
+    /* border: solid white; */
+    text-align: center;
+    margin-left: 10%;
+}
+
+.content2 .icon img{
+    height: 70%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.content2 .icon .iconDesc{
+    font-size: 15px;
+}
