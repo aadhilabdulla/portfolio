@@ -39,6 +39,7 @@ body{
     position: fixed;
     top: 0;
     display: flex;
+    align-content: flex-end;
     background-color: #21252A;
     
 }
@@ -123,7 +124,6 @@ body{
 .page2{
     height: 90vh;
     /* border: solid white; */
-    background-color: #F30755;
 }
 
 .page2 .title1{
@@ -177,4 +177,84 @@ body{
 
 .content2 .icon .iconDesc{
     font-size: 15px;
+}
+
+.page3{
+    /* border: solid white; */
+    height: 100vh;
+}
+
+.page3 .title{
+    padding-top: 3%;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.page3 .content{
+    margin-top: 3%;
+    /* border: white solid; */
+    display: flex;
+    height: 70vh;
+}
+
+.techParent{
+    /* border: solid white; */
+    margin-left: 15%;
+    width: 10vw;
+}
+
+.tech{
+    padding-left: 5%;
+    margin-top: 5vh;
+}
+
+.progParent{
+    /* border: solid white; */
+    width: 50vw;
+    margin-left: 5%;
+}
+
+.prog{
+    border-top: 8px solid #F30755;
+    border-radius: 12px;
+    margin-top: 7.2vh;
+}
+
+#html{
+    margin-top: 2.8vw;
+}
+
+#c{
+    width: 40vw;
+}
+
+#cpp{
+    width: 40vw;
+}
+
+#java{
+    width: 32vw;
+}
+
+#android{
+    width: 35vw;
+}
+
+#python{
+    width: 40vw;
+}
+
+.page4{
+    height: 100vh;
+    border: solid white;
+}
+
+.page4 .title{
+    padding-top: 3%;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 3%;
 }
