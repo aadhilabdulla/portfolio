@@ -230,7 +230,7 @@ body{
 }
 
 #c{
-    width: 40vw;
+    width: 45vw;
 }
 
 #cpp{
@@ -238,11 +238,11 @@ body{
 }
 
 #java{
-    width: 32vw;
+    width: 37vw;
 }
 
 #android{
-    width: 35vw;
+    width: 34vw;
 }
 
 #python{
@@ -299,6 +299,7 @@ p{
 .contentParent .content2 .imgcontainer img{
     max-height: 100%;
     max-width: 100%;
+    border-radius: 15px;
 }
 
 .container1{
@@ -389,4 +390,3 @@ p{
     margin-top: 2.5%;
     /* display: inline-block; */
 }
-
