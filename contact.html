@@ -23,16 +23,16 @@
             </div>
         </div>
         <div class="page1_2">
-            <form action="">
+            <form action="" onsubmit="return validate()">
                 <div class="container_1">
                     <div>Name</div>
                     <div>Email</div>
                     <div>Message</div>
                 </div>
                 <div class="container_2">
-                    <div><input class="name" type="text"></div>
-                    <div><input type="email"></div>
-                    <div><textarea name="" id=""></textarea></div>
+                    <div><input id="name" class="name" type="text"></div>
+                    <div><input id="email" type="email"></div>
+                    <div><textarea id="textarea" name="" id=""></textarea></div>
                 </div>
                 <input type="submit" name="SUBMIT" id="submit">
             </form>
@@ -57,5 +57,6 @@
         </div>
     </div>
 
+<script src="javascript/contact.js"></script>
 </body>
 </html>
