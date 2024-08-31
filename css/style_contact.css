@@ -1,16 +1,16 @@
 @font-face {
     font-family: pb;
-    src: url(/css/fonts/Poppins-Black.ttf);
+    src: url(./fonts/Poppins-Black.ttf);
 }
 
 @font-face {
     font-family: pm;
-    src: url(/css/fonts/Poppins-Medium.ttf);
+    src: url(./fonts/Poppins-Medium.ttf);
 }
 
 @font-face {
     font-family: pr;
-    src: url(/css/fonts/Poppins-Regular.ttf);
+    src: url(./fonts/Poppins-Regular.ttf);
 }
 html{
     scroll-behavior: smooth;
